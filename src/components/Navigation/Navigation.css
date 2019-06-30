@@ -1,0 +1,12 @@
+.navbar{
+    width: 100vw !important;
+    border-bottom: 1px gray solid !important
+    
+}
+
+@media (max-width: 994px) {
+    .mobile-version{
+        display: none !important
+    }
+    
+}

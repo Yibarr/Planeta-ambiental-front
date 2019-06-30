@@ -1,0 +1,35 @@
+.SignIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.input{
+    width: 40vw !important
+    
+}
+
+.login-label{
+    display: flex;
+    justify-content: center
+}
+
+.form-container{
+    margin: 5vh 0 5vh 0 !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+    
+}
+@media (max-width: 994px) {
+    .mobile-version{
+        display: none !important
+    }
+    .input{
+        width: 60vw !important
+        
+    }
+}

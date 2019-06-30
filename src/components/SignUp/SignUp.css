@@ -1,0 +1,36 @@
+.SignUp{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.signup-label{
+    display: flex;
+    justify-content: center
+}
+
+.centero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 7%
+
+
+}
+.input-signup{
+    width: 40vw !important;
+
+    
+}
+
+@media (max-width: 767px) {
+    .input-signup{
+        width: 60vw !important;
+   
+        
+    }
+    .mobile-version{
+        display: none !important
+    }
+}
