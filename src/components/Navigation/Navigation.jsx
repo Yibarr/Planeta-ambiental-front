@@ -18,22 +18,22 @@ export class Navigation extends Component {
                 <Menu secondary className='navbar'>
                     <Link to={ROUTES.LANDING}>
                         <Menu.Item 
-                            name='home' 
-                            active={activeItem === 'home'} 
+                            name='landing' 
+                            active={activeItem === 'landing'} 
                             onClick={this.handleItemClick} 
                         />
                     </Link>
                     <Link to={ROUTES.HOME}>
                         <Menu.Item
-                            name='participantes'
-                            active={activeItem === 'participantes'}
+                            name='home'
+                            active={activeItem === 'home'}
                             onClick={this.handleItemClick}
                         />
                     </Link>
                     <Link to={ROUTES.ACCOUNT}>
                         <Menu.Item
-                            name='cursos'
-                            active={activeItem === 'cursos'}
+                            name='cuenta'
+                            active={activeItem === 'cuenta'}
                             onClick={this.handleItemClick}
                         />
                     </Link>

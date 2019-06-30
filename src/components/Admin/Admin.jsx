@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 
+import './Admin.css'
+
 export class Admin extends Component {
     render() {
         return (
             <div>
-                <h2>Admin</h2>
+                <h2 className='admin'>Admin</h2>
             </div>
         )
     }
